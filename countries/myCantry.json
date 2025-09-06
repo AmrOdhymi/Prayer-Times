@@ -1,0 +1,58 @@
+[
+    {
+        "codeName":"",
+        "name": "",
+        "method":"",
+        "methodName":"",
+        "Governorates": [
+            {
+                "name": "",
+                "GovernoratesCode": ""
+            }
+        ]
+    },
+    {
+        "codeName":"YE",
+        "name": "اليمن",
+        "method":"4",
+        "methodName":"Umm Al-Qura University, Makkah",
+        "Governorates": [
+            {
+                "name":"",
+                "GovernoratesCode":""
+            },
+            {
+                "name": "الحديده",
+                "GovernoratesCode": "Al Ḩudaydah"
+            },
+            {
+                "name": "صنعاء",
+                "GovernoratesCode": "Şanʻā’"
+            }
+        ]
+    },
+    {
+        "codeName":"JP",
+        "name": "اليابان",
+        "method":"3",
+        "methodName":"Muslim World League",
+        "Governorates": [
+            {
+                "name":"",
+                "GovernoratesCode":""
+            },
+            {
+                "name": "أوساكا",
+                "GovernoratesCode": "Osaka"
+            },
+            {
+                "name": "طوكيو",
+                "GovernoratesCode": "Tokyo"
+            },
+            {
+                "name": "كيوتو",
+                "GovernoratesCode": "Kyoto"
+            }
+        ]
+    }
+]

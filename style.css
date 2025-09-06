@@ -1,0 +1,160 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background: url(img/backgroundV2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contener{
+    width: 60%;
+    background-color: rgba(0, 103, 19, 0.9);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+}
+.title{
+    color: white;
+    margin: 5px;
+}
+.head{
+    /* background-color: brown; */
+    width: 100%;
+    text-align: center;
+    
+}
+
+/* التنسيق عندما يكون عرض الشاشة أكبر من 575 بكسل */
+@media (min-width: 576px) {
+    .setting{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        margin-bottom: 5px;
+        direction: rtl;
+    }
+  }
+  
+  /* التنسيق عندما يكون عرض الشاشة أقل من أو يساوي 575 بكسل */
+  @media (max-width: 575px) {
+    .setting{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-bottom: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+/* .setting{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-bottom: 5px;
+    direction: rtl;
+} */
+/* .setting{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+} */
+
+.box{
+    width: 50%;
+    background-color: rgba(0, 137, 0, 0.433);
+    border-radius: 10px;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+select{
+    width: 100%;
+}
+p{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+    color: white;
+    
+}
+button{
+    padding: 5px;
+    width: 50%;
+}
+button:hover,input:hover,select:hover{
+    background-color: rgba(0, 84, 0, 0.907);
+}
+input{
+    padding: 5px;
+    width: 50%;
+
+}
+.lyout{
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}
+.elementlyout{
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgba(0, 84, 0, 0.69);
+    color: white;
+    border-radius: 10px;
+}
+.datacontent{
+    /* background-color: blue; */
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.datalyot{
+    width: 100%;
+    height: 45px;
+    background-color: rgba(0, 84, 0, 0.69);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    
+}
+.faredha{
+    width: 50%;
+    padding: 5px 5px;
+}
+.time{
+    width: 50%;
+    padding: 5px 5px;
+}

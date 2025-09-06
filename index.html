@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>PrayerTimesApp</title>
+</head>
+<body>
+
+    <div class="background">
+
+        <div class="contener">
+
+            <div class="head">
+                <h1 class="title">أوقات الصلاة</h1>
+            </div>
+
+            <div class="setting">
+                  <div style="width: 100%;" class="cantry box">
+                    <p>المدينه</p>
+                    <select id="cantry" class="elementlyout">
+
+                    </select>
+                </div>
+
+
+                <div style="width: 100%;" class="cantry box">
+                    <p>المحافظة</p>
+                    <select id="states" class="elementlyout">
+
+                    </select>
+                </div>
+
+                <div style="width: 100%;" class="date box">
+                    <p>التاريخ</p>
+                    <div class="lyout">
+                        <button style="width: 30%;" onclick="getCurrentDate()" id="nowDate" class="elementlyout">تاريخ اليوم</button>
+                        <input style="width: 70%;" type="date" id="date" class="elementlyout" dir="ltr">
+                    </div>
+                </div>
+
+            </div>
+            <input onclick="getPrayerTimes()" type="button" id="get" class="elementlyout" value="انقر للعرض">
+
+            <div class="datacontent" id="dataContent">
+
+                <div class="datalyot">
+                    لا توجد بيانات
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    
+</body>
+<script src="main.js"></script>
+</html>
